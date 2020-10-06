@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+i {
+    padding: 36px 4px;
+    font-size: 8px;
+}
+
+body {
+    background: url(AI.jpg) no-repeat;
+    background-size: 1920px;
+    font-size: 20px;
+    
+}
+header {
+    display: flex;
+    height: 80px;
+    background:transparent;
+    line-height: 80px;
+}
+
+header  div{
+    color: white;
+    display: flex;
+}
+
+/* logo */
+
+.logo > ul {
+    display: flex;
+    margin-left: 50px;
+}
+.logo > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+.logo> ul > li:first-child > a {
+    opacity: 0;
+    padding: 40px;
+}
+.logo  ul li:first-child {
+    width: 60px;
+    height: 60px;
+    background: url(fpt.png) no-repeat;
+    background-size: 64px;
+    margin-top: 10px;
+    border-radius: 50%;
+    padding: 0px 5px;  
+
+}
+.logo ul li:last-child {
+    padding: 0px 5px;
+    margin-right: 30px;
+}
+
+
+/* select */
+.select > div > li {
+    padding: 0px 20px;
+    display: inline-block;
+    
+}
+.services li {
+    position: relative;
+}
+.services>ul>li>a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+.select > div > ul:hover > li a {
+    color: red;
+}
+
+.digital {
+    display: none;
+    position: absolute;
+    width:25vh;
+    height: 20vh;
+    margin-top: 1px;
+    background-color: whitesmoke;
+    
+}
+.digital > li:hover > h3{
+    color: blue;
+    cursor: pointer;
+    
+}
+.digital-consulting {
+    position: relative;
+}
+
+.digital > li  {
+    color:black;
+    height: 30px; 
+    cursor: pointer;
+
+}
+.digital > li > a > i {
+    font-size: 13px;
+
+}
+.services > ul > li:hover .digital {
+    display: block;
+}
+.none {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.consulting{
+    width: 30vh;
+    background: white;
+    position: relative;
+}
+.consulting li {
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.tiep1{
+    left: 100%;
+    top: 0%;
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    background: white;
+    display: none;
+   
+    
+}
+.consult{
+    width: 30vh;
+    background: white;
+    height: 20vh;
+    position: relative;
+    line-height: 20vh;
+
+}
+.tiep2{
+    left: 100%;
+    top: 0%;
+    position: absolute;
+    width: 25vh;
+    height: 15vh;
+    background: white;   
+    display: none; 
+}
+
+.consult > li:nth-child(2):hover p{
+    color: rgb(255, 0, 55);
+}
+.consult > li:nth-child(2):hover .tiep1 {
+    display: block;
+}
+
+.consult > li:nth-child(3):hover p{
+    color: rgb(0, 255, 8);
+}
+.consult > li:nth-child(3):hover .tiep2 {
+    display: block;
+}
+
+.tiep1 li:hover {
+    color: yellow;
+}
+.tiep2 li:hover {
+    color: seagreen;
+}
+
+
+
+
+
+/* contact */
+.contact ul {
+ display: flex;
+}
+.contact ul li a{
+    color: white;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+.contact ul li:last-child::before {
+    content: '|';
+    color: beige;
+    margin-left: 10px; 
+}
+.consulting > li > h1 {
+    position: relative;
+}
+.tiep {
+    position: absolute;
+    left: 100%;
+    top: 50PX;
+    display: inline-block;
+    width: 40VH;
+    background: white;
+}
+.digital-consulting:hover .none {
+    display: block;
+}
+
+
+
+
+/* forseach */
+
+.forseach {
+    margin-left: 660px;
+}
+.forseach div:first-child i {
+    font-size: 15px;
+    padding-top: 30px;
+}
+.forseach div:first-child::after {
+    content: '|';
+    color: white;
+    margin: 0px 10px;
+}
